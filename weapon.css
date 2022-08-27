@@ -1,0 +1,57 @@
+@font-face {
+    font-family: gamefont;
+    src: url(./Silkscreen-Bold.ttf);
+}
+@font-face {
+    font-family: rubik;
+    src: url(./RubikMarkerHatch-Regular.ttf);
+}
+body{
+    background-color: cadetblue;
+    
+    font-family: gamefont;
+}
+.game{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+img{
+    width: 120px;
+    white-space: 40px;
+    padding-top: 30px;
+}
+button{
+    background-color: rgb(198, 198, 198);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 10px solid rgb(198, 198, 198);
+    margin-left: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: rubik;
+}
+.imagetest img{
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    left: 32%;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+.titr{
+    display: inline-block;
+}
+
+#res{
+    text-align: center;
+    font-size: 40px;
+    padding-top: -20px;
+}
